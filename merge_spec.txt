@@ -1,0 +1,13 @@
+merge_method dare_ties
+base_model 
+  model QwenQwen3.6-27B
+models
+  - model .adapter_v1
+    parameters
+      density 0.70
+      weight 1.0
+parameters
+  int8_mask true
+  random_seed 42
+dtype bfloat16
+tokenizer_source base
