@@ -1,0 +1,18 @@
+# Models and Adapters (These go to Hugging Face, NOT GitHub)
+adapter_*/
+merged_model_*/
+outputs/
+*.safetensors
+*.bin
+*.pt
+
+# Python and Jupyter caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# OS generated files
+.DS_Store
